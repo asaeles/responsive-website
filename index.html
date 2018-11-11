@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brighton Times</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__inner">
+        <img class="header__logo" src="images/city.png" alt="iconic view of a cityscape">
+        <h1 class="header__title">
+          The Brighton Times
+        </h1>
+        <i id="menu" class="header__hamburger fas fa-bars"></i>
+      </div>
+    </header>
+
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">News</a></li>
+        <li class="nav__item"><a href="#">Events</a></li>
+        <li class="nav__item"><a href="#">Culture</a></li>
+        <li class="nav__item"><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="content">
+        <section class="hero">
+          <img class="image" src="images/car.jpg" srcset="images/car.jpg 1x, images/car@2x.jpg 2x, images/car@3x.jpg 3x" alt="picture of a guy with a yellow, super roadster car">
+          <article class="description">
+            <h2>Absolutely astonishing breaking news!</h2>
+            <p>Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
+          </article>
+        </section>
+
+        <section class="news top-news">
+          <h2 class="news__title">Top news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="top-news__item">
+              <a href="#">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Organic raw denim lomo Kickstarter art Vice keffiyeh four loko.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="scores">
+            <table class="scores__table">
+            <thead>
+            <tr>
+            <th class="table-column--sub"><abbr title="Position">P</abbr></th>
+            <th class="table-column--main">Team</th>
+            <th><abbr title="Games played">GP</abbr></th>
+            <th class="table-column--importance-1"><abbr title="Won">W</abbr></th>
+            <th class="table-column--importance-1"><abbr title="Drawn">D</abbr></th>
+            <th class="table-column--importance-1"><abbr title="Lost">L</abbr></th>
+            <th class="table-column--importance-1"><abbr title="Goals for">F</abbr></th>
+            <th class="table-column--importance-1"><abbr title="Goals against">A</abbr></th>
+            <th class="table-column--importance-3"><abbr title="Goal difference">GD</abbr></th>
+            <th><abbr title="Points">Pts</abbr></th>
+            <th class="table-column--importance-2 football-stat--form"><abbr title="Results of previous games">Form</abbr></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="">
+            <td class="table-column--sub">1</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="MNC">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/11.png">
+            <a href="/football/manchestercity" data-link-name="View team" class="team-name__long">
+            Man City
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">10</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">0</td>
+            <td class="table-column--importance-1">35</td>
+            <td class="table-column--importance-1">5</td>
+            <td class="table-column--importance-3">30</td>
+            <td><b>32</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--won" data-foe="Brighton" data-score="2" data-score-foe="0" title="Won 2-0 against Brighton">
+            <span class="u-h">Won against Brighton</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Liverpool" data-score="0" data-score-foe="0" title="Drew 0-0 with Liverpool">
+            <span class="u-h">Drew with Liverpool</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Burnley" data-score="5" data-score-foe="0" title="Won 5-0 against Burnley">
+            <span class="u-h">Won against Burnley</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Spurs" data-score="1" data-score-foe="0" title="Won 1-0 against Spurs">
+            <span class="u-h">Won against Spurs</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Southampton" data-score="6" data-score-foe="1" title="Won 6-1 against Southampton">
+            <span class="u-h">Won against Southampton</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">2</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="LIV">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/9.png">
+            <a href="/football/liverpool" data-link-name="View team" class="team-name__long">
+            Liverpool
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">9</td>
+            <td class="table-column--importance-1">3</td>
+            <td class="table-column--importance-1">0</td>
+            <td class="table-column--importance-1">23</td>
+            <td class="table-column--importance-1">5</td>
+            <td class="table-column--importance-3">18</td>
+            <td><b>30</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--drew" data-foe="Man City" data-score="0" data-score-foe="0" title="Drew 0-0 with Man City">
+            <span class="u-h">Drew with Man City</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Huddersfield" data-score="1" data-score-foe="0" title="Won 1-0 against Huddersfield">
+            <span class="u-h">Won against Huddersfield</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Cardiff" data-score="4" data-score-foe="1" title="Won 4-1 against Cardiff">
+            <span class="u-h">Won against Cardiff</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Arsenal" data-score="1" data-score-foe="1" title="Drew 1-1 with Arsenal">
+            <span class="u-h">Drew with Arsenal</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Fulham" data-score="2" data-score-foe="0" title="Won 2-0 against Fulham">
+            <span class="u-h">Won against Fulham</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">3</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="CHE">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/4.png">
+            <a href="/football/chelsea" data-link-name="View team" class="team-name__long">
+            Chelsea
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">8</td>
+            <td class="table-column--importance-1">4</td>
+            <td class="table-column--importance-1">0</td>
+            <td class="table-column--importance-1">27</td>
+            <td class="table-column--importance-1">8</td>
+            <td class="table-column--importance-3">19</td>
+            <td><b>28</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--won" data-foe="Southampton" data-score="3" data-score-foe="0" title="Won 3-0 against Southampton">
+            <span class="u-h">Won against Southampton</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Man Utd" data-score="2" data-score-foe="2" title="Drew 2-2 with Man Utd">
+            <span class="u-h">Drew with Man Utd</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Burnley" data-score="4" data-score-foe="0" title="Won 4-0 against Burnley">
+            <span class="u-h">Won against Burnley</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="C Palace" data-score="3" data-score-foe="1" title="Won 3-1 against C Palace">
+            <span class="u-h">Won against C Palace</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Everton" data-score="0" data-score-foe="0" title="Drew 0-0 with Everton">
+            <span class="u-h">Drew with Everton</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">4</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="TOT">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/19.png">
+            <a href="/football/tottenham-hotspur" data-link-name="View team" class="team-name__long">
+            Spurs
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">9</td>
+            <td class="table-column--importance-1">0</td>
+            <td class="table-column--importance-1">3</td>
+            <td class="table-column--importance-1">20</td>
+            <td class="table-column--importance-1">10</td>
+            <td class="table-column--importance-3">10</td>
+            <td><b>27</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--won" data-foe="Cardiff" data-score="1" data-score-foe="0" title="Won 1-0 against Cardiff">
+            <span class="u-h">Won against Cardiff</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="West Ham" data-score="1" data-score-foe="0" title="Won 1-0 against West Ham">
+            <span class="u-h">Won against West Ham</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Man City" data-score="0" data-score-foe="1" title="Lost 0-1 to Man City">
+            <span class="u-h">Lost to Man City</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Wolves" data-score="3" data-score-foe="2" title="Won 3-2 against Wolves">
+            <span class="u-h">Won against Wolves</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="C Palace" data-score="1" data-score-foe="0" title="Won 1-0 against C Palace">
+            <span class="u-h">Won against C Palace</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="table-row--divider">
+            <td class="table-column--sub">5</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="ARS">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/1006.png">
+            <a href="/football/arsenal" data-link-name="View team" class="team-name__long">
+            Arsenal
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">7</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">3</td>
+            <td class="table-column--importance-1">25</td>
+            <td class="table-column--importance-1">15</td>
+            <td class="table-column--importance-3">10</td>
+            <td><b>23</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--won" data-foe="Watford" data-score="2" data-score-foe="0" title="Won 2-0 against Watford">
+            <span class="u-h">Won against Watford</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Fulham" data-score="5" data-score-foe="1" title="Won 5-1 against Fulham">
+            <span class="u-h">Won against Fulham</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Leicester" data-score="3" data-score-foe="1" title="Won 3-1 against Leicester">
+            <span class="u-h">Won against Leicester</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="C Palace" data-score="2" data-score-foe="2" title="Drew 2-2 with C Palace">
+            <span class="u-h">Drew with C Palace</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Liverpool" data-score="1" data-score-foe="1" title="Drew 1-1 with Liverpool">
+            <span class="u-h">Drew with Liverpool</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="table-row--divider">
+            <td class="table-column--sub">6</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="BOU">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/23.png">
+            <a href="/football/bournemouth" data-link-name="View team" class="team-name__long">
+            AFC Bournemouth
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">6</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">4</td>
+            <td class="table-column--importance-1">21</td>
+            <td class="table-column--importance-1">16</td>
+            <td class="table-column--importance-3">5</td>
+            <td><b>20</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--won" data-foe="Watford" data-score="4" data-score-foe="0" title="Won 4-0 against Watford">
+            <span class="u-h">Won against Watford</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Southampton" data-score="0" data-score-foe="0" title="Drew 0-0 with Southampton">
+            <span class="u-h">Drew with Southampton</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Fulham" data-score="3" data-score-foe="0" title="Won 3-0 against Fulham">
+            <span class="u-h">Won against Fulham</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Man Utd" data-score="1" data-score-foe="2" title="Lost 1-2 to Man Utd">
+            <span class="u-h">Lost to Man Utd</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Newcastle" data-score="1" data-score-foe="2" title="Lost 1-2 to Newcastle">
+            <span class="u-h">Lost to Newcastle</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">7</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="WAT">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/41.png">
+            <a href="/football/watford" data-link-name="View team" class="team-name__long">
+            Watford
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">6</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">4</td>
+            <td class="table-column--importance-1">17</td>
+            <td class="table-column--importance-1">14</td>
+            <td class="table-column--importance-3">3</td>
+            <td><b>20</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--lost" data-foe="AFC Bournemouth" data-score="0" data-score-foe="4" title="Lost 0-4 to AFC Bournemouth">
+            <span class="u-h">Lost to AFC Bournemouth</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Wolves" data-score="2" data-score-foe="0" title="Won 2-0 against Wolves">
+            <span class="u-h">Won against Wolves</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Huddersfield" data-score="3" data-score-foe="0" title="Won 3-0 against Huddersfield">
+            <span class="u-h">Won against Huddersfield</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Newcastle" data-score="0" data-score-foe="1" title="Lost 0-1 to Newcastle">
+            <span class="u-h">Lost to Newcastle</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Southampton" data-score="1" data-score-foe="1" title="Drew 1-1 with Southampton">
+            <span class="u-h">Drew with Southampton</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">8</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="MNU">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/12.png">
+            <a href="/football/manchester-united" data-link-name="View team" class="team-name__long">
+            Man Utd
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">6</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">4</td>
+            <td class="table-column--importance-1">20</td>
+            <td class="table-column--importance-1">20</td>
+            <td class="table-column--importance-3">0</td>
+            <td><b>20</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--lost" data-foe="West Ham" data-score="1" data-score-foe="3" title="Lost 1-3 to West Ham">
+            <span class="u-h">Lost to West Ham</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Newcastle" data-score="3" data-score-foe="2" title="Won 3-2 against Newcastle">
+            <span class="u-h">Won against Newcastle</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Chelsea" data-score="2" data-score-foe="2" title="Drew 2-2 with Chelsea">
+            <span class="u-h">Drew with Chelsea</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Everton" data-score="2" data-score-foe="1" title="Won 2-1 against Everton">
+            <span class="u-h">Won against Everton</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="AFC Bournemouth" data-score="2" data-score-foe="1" title="Won 2-1 against AFC Bournemouth">
+            <span class="u-h">Won against AFC Bournemouth</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">9</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="EVE">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/8.png">
+            <a href="/football/everton" data-link-name="View team" class="team-name__long">
+            Everton
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">5</td>
+            <td class="table-column--importance-1">4</td>
+            <td class="table-column--importance-1">3</td>
+            <td class="table-column--importance-1">19</td>
+            <td class="table-column--importance-1">15</td>
+            <td class="table-column--importance-3">4</td>
+            <td><b>19</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--won" data-foe="Leicester" data-score="2" data-score-foe="1" title="Won 2-1 against Leicester">
+            <span class="u-h">Won against Leicester</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="C Palace" data-score="2" data-score-foe="0" title="Won 2-0 against C Palace">
+            <span class="u-h">Won against C Palace</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Man Utd" data-score="1" data-score-foe="2" title="Lost 1-2 to Man Utd">
+            <span class="u-h">Lost to Man Utd</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Brighton" data-score="3" data-score-foe="1" title="Won 3-1 against Brighton">
+            <span class="u-h">Won against Brighton</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Chelsea" data-score="0" data-score-foe="0" title="Drew 0-0 with Chelsea">
+            <span class="u-h">Drew with Chelsea</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">10</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="WOL">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/44.png">
+            <a href="/football/wolves" data-link-name="View team" class="team-name__long">
+            Wolves
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">5</td>
+            <td class="table-column--importance-1">3</td>
+            <td class="table-column--importance-1">4</td>
+            <td class="table-column--importance-1">12</td>
+            <td class="table-column--importance-1">12</td>
+            <td class="table-column--importance-3">0</td>
+            <td><b>18</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--won" data-foe="Southampton" data-score="2" data-score-foe="0" title="Won 2-0 against Southampton">
+            <span class="u-h">Won against Southampton</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="C Palace" data-score="1" data-score-foe="0" title="Won 1-0 against C Palace">
+            <span class="u-h">Won against C Palace</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Watford" data-score="0" data-score-foe="2" title="Lost 0-2 to Watford">
+            <span class="u-h">Lost to Watford</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Brighton" data-score="0" data-score-foe="1" title="Lost 0-1 to Brighton">
+            <span class="u-h">Lost to Brighton</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Spurs" data-score="2" data-score-foe="3" title="Lost 2-3 to Spurs">
+            <span class="u-h">Lost to Spurs</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">11</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="LEI">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/29.png">
+            <a href="/football/leicestercity" data-link-name="View team" class="team-name__long">
+            Leicester
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">5</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">5</td>
+            <td class="table-column--importance-1">17</td>
+            <td class="table-column--importance-1">16</td>
+            <td class="table-column--importance-3">1</td>
+            <td><b>17</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--lost" data-foe="Everton" data-score="1" data-score-foe="2" title="Lost 1-2 to Everton">
+            <span class="u-h">Lost to Everton</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Arsenal" data-score="1" data-score-foe="3" title="Lost 1-3 to Arsenal">
+            <span class="u-h">Lost to Arsenal</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="West Ham" data-score="1" data-score-foe="1" title="Drew 1-1 with West Ham">
+            <span class="u-h">Drew with West Ham</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Cardiff" data-score="1" data-score-foe="0" title="Won 1-0 against Cardiff">
+            <span class="u-h">Won against Cardiff</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Burnley" data-score="0" data-score-foe="0" title="Drew 0-0 with Burnley">
+            <span class="u-h">Drew with Burnley</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">12</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="BRI">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/6795.png">
+            <a href="/football/brightonfootball" data-link-name="View team" class="team-name__long">
+            Brighton
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">4</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">6</td>
+            <td class="table-column--importance-1">13</td>
+            <td class="table-column--importance-1">18</td>
+            <td class="table-column--importance-3">-5</td>
+            <td><b>14</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--won" data-foe="West Ham" data-score="1" data-score-foe="0" title="Won 1-0 against West Ham">
+            <span class="u-h">Won against West Ham</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Newcastle" data-score="1" data-score-foe="0" title="Won 1-0 against Newcastle">
+            <span class="u-h">Won against Newcastle</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Wolves" data-score="1" data-score-foe="0" title="Won 1-0 against Wolves">
+            <span class="u-h">Won against Wolves</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Everton" data-score="1" data-score-foe="3" title="Lost 1-3 to Everton">
+            <span class="u-h">Lost to Everton</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Cardiff" data-score="1" data-score-foe="2" title="Lost 1-2 to Cardiff">
+            <span class="u-h">Lost to Cardiff</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">13</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="WHU">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/43.png">
+            <a href="/football/westhamunited" data-link-name="View team" class="team-name__long">
+            West Ham
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">3</td>
+            <td class="table-column--importance-1">3</td>
+            <td class="table-column--importance-1">6</td>
+            <td class="table-column--importance-1">14</td>
+            <td class="table-column--importance-1">18</td>
+            <td class="table-column--importance-3">-4</td>
+            <td><b>12</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--lost" data-foe="Brighton" data-score="0" data-score-foe="1" title="Lost 0-1 to Brighton">
+            <span class="u-h">Lost to Brighton</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Spurs" data-score="0" data-score-foe="1" title="Lost 0-1 to Spurs">
+            <span class="u-h">Lost to Spurs</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Leicester" data-score="1" data-score-foe="1" title="Drew 1-1 with Leicester">
+            <span class="u-h">Drew with Leicester</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Burnley" data-score="4" data-score-foe="2" title="Won 4-2 against Burnley">
+            <span class="u-h">Won against Burnley</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Huddersfield" data-score="1" data-score-foe="1" title="Drew 1-1 with Huddersfield">
+            <span class="u-h">Drew with Huddersfield</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">14</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="NEW">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/31.png">
+            <a href="/football/newcastleunited" data-link-name="View team" class="team-name__long">
+            Newcastle
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">3</td>
+            <td class="table-column--importance-1">7</td>
+            <td class="table-column--importance-1">9</td>
+            <td class="table-column--importance-1">15</td>
+            <td class="table-column--importance-3">-6</td>
+            <td><b>9</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--lost" data-foe="Man Utd" data-score="2" data-score-foe="3" title="Lost 2-3 to Man Utd">
+            <span class="u-h">Lost to Man Utd</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Brighton" data-score="0" data-score-foe="1" title="Lost 0-1 to Brighton">
+            <span class="u-h">Lost to Brighton</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Southampton" data-score="0" data-score-foe="0" title="Drew 0-0 with Southampton">
+            <span class="u-h">Drew with Southampton</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Watford" data-score="1" data-score-foe="0" title="Won 1-0 against Watford">
+            <span class="u-h">Won against Watford</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="AFC Bournemouth" data-score="2" data-score-foe="1" title="Won 2-1 against AFC Bournemouth">
+            <span class="u-h">Won against AFC Bournemouth</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">15</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="BUR">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/70.png">
+            <a href="/football/burnley" data-link-name="View team" class="team-name__long">
+            Burnley
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">3</td>
+            <td class="table-column--importance-1">7</td>
+            <td class="table-column--importance-1">12</td>
+            <td class="table-column--importance-1">25</td>
+            <td class="table-column--importance-3">-13</td>
+            <td><b>9</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--drew" data-foe="Huddersfield" data-score="1" data-score-foe="1" title="Drew 1-1 with Huddersfield">
+            <span class="u-h">Drew with Huddersfield</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Man City" data-score="0" data-score-foe="5" title="Lost 0-5 to Man City">
+            <span class="u-h">Lost to Man City</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Chelsea" data-score="0" data-score-foe="4" title="Lost 0-4 to Chelsea">
+            <span class="u-h">Lost to Chelsea</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="West Ham" data-score="2" data-score-foe="4" title="Lost 2-4 to West Ham">
+            <span class="u-h">Lost to West Ham</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Leicester" data-score="0" data-score-foe="0" title="Drew 0-0 with Leicester">
+            <span class="u-h">Drew with Leicester</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">16</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="CRY">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/5.png">
+            <a href="/football/crystalpalace" data-link-name="View team" class="team-name__long">
+            C Palace
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">8</td>
+            <td class="table-column--importance-1">8</td>
+            <td class="table-column--importance-1">17</td>
+            <td class="table-column--importance-3">-9</td>
+            <td><b>8</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--lost" data-foe="Wolves" data-score="0" data-score-foe="1" title="Lost 0-1 to Wolves">
+            <span class="u-h">Lost to Wolves</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Everton" data-score="0" data-score-foe="2" title="Lost 0-2 to Everton">
+            <span class="u-h">Lost to Everton</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Arsenal" data-score="2" data-score-foe="2" title="Drew 2-2 with Arsenal">
+            <span class="u-h">Drew with Arsenal</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Chelsea" data-score="1" data-score-foe="3" title="Lost 1-3 to Chelsea">
+            <span class="u-h">Lost to Chelsea</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Spurs" data-score="0" data-score-foe="1" title="Lost 0-1 to Spurs">
+            <span class="u-h">Lost to Spurs</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">17</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="SOU">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/18.png">
+            <a href="/football/southampton" data-link-name="View team" class="team-name__long">
+            Southampton
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">1</td>
+            <td class="table-column--importance-1">5</td>
+            <td class="table-column--importance-1">6</td>
+            <td class="table-column--importance-1">8</td>
+            <td class="table-column--importance-1">21</td>
+            <td class="table-column--importance-3">-13</td>
+            <td><b>8</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--lost" data-foe="Chelsea" data-score="0" data-score-foe="3" title="Lost 0-3 to Chelsea">
+            <span class="u-h">Lost to Chelsea</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="AFC Bournemouth" data-score="0" data-score-foe="0" title="Drew 0-0 with AFC Bournemouth">
+            <span class="u-h">Drew with AFC Bournemouth</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Newcastle" data-score="0" data-score-foe="0" title="Drew 0-0 with Newcastle">
+            <span class="u-h">Drew with Newcastle</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Man City" data-score="1" data-score-foe="6" title="Lost 1-6 to Man City">
+            <span class="u-h">Lost to Man City</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="Watford" data-score="1" data-score-foe="1" title="Drew 1-1 with Watford">
+            <span class="u-h">Drew with Watford</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="table-row--divider">
+            <td class="table-column--sub">18</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="CAR">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/52.png">
+            <a href="/football/cardiffcity" data-link-name="View team" class="team-name__long">
+            Cardiff
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">8</td>
+            <td class="table-column--importance-1">11</td>
+            <td class="table-column--importance-1">25</td>
+            <td class="table-column--importance-3">-14</td>
+            <td><b>8</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--lost" data-foe="Spurs" data-score="0" data-score-foe="1" title="Lost 0-1 to Spurs">
+            <span class="u-h">Lost to Spurs</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Fulham" data-score="4" data-score-foe="2" title="Won 4-2 against Fulham">
+            <span class="u-h">Won against Fulham</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Liverpool" data-score="1" data-score-foe="4" title="Lost 1-4 to Liverpool">
+            <span class="u-h">Lost to Liverpool</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Leicester" data-score="0" data-score-foe="1" title="Lost 0-1 to Leicester">
+            <span class="u-h">Lost to Leicester</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Brighton" data-score="2" data-score-foe="1" title="Won 2-1 against Brighton">
+            <span class="u-h">Won against Brighton</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">19</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="HUD">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/56.png">
+            <a href="/football/huddersfield" data-link-name="View team" class="team-name__long">
+            Huddersfield
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">1</td>
+            <td class="table-column--importance-1">4</td>
+            <td class="table-column--importance-1">7</td>
+            <td class="table-column--importance-1">6</td>
+            <td class="table-column--importance-1">22</td>
+            <td class="table-column--importance-3">-16</td>
+            <td><b>7</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--drew" data-foe="Burnley" data-score="1" data-score-foe="1" title="Drew 1-1 with Burnley">
+            <span class="u-h">Drew with Burnley</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Liverpool" data-score="0" data-score-foe="1" title="Lost 0-1 to Liverpool">
+            <span class="u-h">Lost to Liverpool</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Watford" data-score="0" data-score-foe="3" title="Lost 0-3 to Watford">
+            <span class="u-h">Lost to Watford</span>
+            </span>
+            <span class="team-result team-result--won" data-foe="Fulham" data-score="1" data-score-foe="0" title="Won 1-0 against Fulham">
+            <span class="u-h">Won against Fulham</span>
+            </span>
+            <span class="team-result team-result--drew" data-foe="West Ham" data-score="1" data-score-foe="1" title="Drew 1-1 with West Ham">
+            <span class="u-h">Drew with West Ham</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            <tr class="">
+            <td class="table-column--sub">20</td>
+            <td class="table-column--main">
+            <span class="team-name" data-abbr="FUL">
+            <img class="team-crest" alt="" src="https://sport.guim.co.uk/football/crests/60/55.png">
+            <a href="/football/fulham" data-link-name="View team" class="team-name__long">
+            Fulham
+            </a>
+            </span>
+            </td>
+            <td>12</td>
+            <td class="table-column--importance-1">1</td>
+            <td class="table-column--importance-1">2</td>
+            <td class="table-column--importance-1">9</td>
+            <td class="table-column--importance-1">11</td>
+            <td class="table-column--importance-1">31</td>
+            <td class="table-column--importance-3">-20</td>
+            <td><b>5</b></td>
+            <td class="table-column--importance-2 football-stat--form">
+            <div class="team__results">
+            <span class="team-result team-result--lost" data-foe="Arsenal" data-score="1" data-score-foe="5" title="Lost 1-5 to Arsenal">
+            <span class="u-h">Lost to Arsenal</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Cardiff" data-score="2" data-score-foe="4" title="Lost 2-4 to Cardiff">
+            <span class="u-h">Lost to Cardiff</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="AFC Bournemouth" data-score="0" data-score-foe="3" title="Lost 0-3 to AFC Bournemouth">
+            <span class="u-h">Lost to AFC Bournemouth</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Huddersfield" data-score="0" data-score-foe="1" title="Lost 0-1 to Huddersfield">
+            <span class="u-h">Lost to Huddersfield</span>
+            </span>
+            <span class="team-result team-result--lost" data-foe="Liverpool" data-score="0" data-score-foe="2" title="Lost 0-2 to Liverpool">
+            <span class="u-h">Lost to Liverpool</span>
+            </span>
+            </div>
+            </td>
+            </tr>
+            </tbody>
+            </table>
+        </section>
+
+        <section class="weather">
+          <span class="weather__location">Brighton, UK</span>
+          <span class="weather__desc">Sunny</span>
+          <span class="weather__today">
+          <img class="weather__today__image" src="images/weather.png" alt="icon of a partially sunny day"><span class="weather__today__temp">13</span><span class="weather__today__deg">&deg;C</span>
+          </span>
+          <ul class="weather__next">
+            <li class="weather__next__item">
+              <span>Mon</span>
+              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Tues</span>
+              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Wed</span>
+              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Thu</span>
+              <img class="weather__next__image" src="images/rain.png" alt="icon of a rainy day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Fri</span>
+              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
+              <span>13 &deg;C</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="news recent-news">
+          <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/car.jpg" srcset="images/car.jpg 1x, images/car@2x.jpg 2x, images/car@3x.jpg 3x" alt="picture of a guy with a yellow, super roadster car">
+              <h3 class="snippet__title"><a href="#">Gastropub distillery Marfa farm-to-table</a></h3>
+              <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
+              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/car.jpg" srcset="images/car.jpg 1x, images/car@2x.jpg 2x, images/car@3x.jpg 3x" alt="picture of a guy with a yellow, super roadster car">
+              <h3 class="snippet__title"><a href="#">Organic raw keffiyeh four loko.</a></h3>
+              <p>Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice loko.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/car.jpg" srcset="images/car.jpg 1x, images/car@2x.jpg 2x, images/car@3x.jpg 3x" alt="picture of a guy with a yellow, super roadster car">
+              <h3 class="snippet__title"><a href="#">Kickstarter art party cronut scenester.</a></h3>
+              <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
+              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/car.jpg" srcset="images/car.jpg 1x, images/car@2x.jpg 2x, images/car@3x.jpg 3x" alt="picture of a guy with a yellow, super roadster car">
+              <h3 class="snippet__title"><a href="#">Squid lomo Kickstarter art party cronut </a></h3>
+              <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
+              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Follow us on Twitter</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </footer>
+    </main>
+    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('#drawer');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+  </body>
+</html>
